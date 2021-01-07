@@ -1,0 +1,8 @@
+.header {
+    border: 1px solid black;
+
+    &__title {
+        color: $color_4;
+        text-align: center;
+    }
+}
