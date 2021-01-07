@@ -1,5 +1,6 @@
-import {Warrior} from './Warrior';
-import {Select} from './Select';
+import {Warrior} from './modules/Warrior';
+import {Select} from './modules/Select';
+import {Select2} from './modules/Select';
 
 let lenargoWarrior = new Warrior({
     name: 'Lenargo',
@@ -23,3 +24,11 @@ lenargoWarrior.getWarriorInfo();
 
 // Вывод из метода класса на страницу
 mainBody.innerHTML = lenargoWarrior.getWarriorInfo();
+
+let h1Tile = new Select2('header__title');
+
+console.log(h1Tile);
+
+console.log('---');
+
+h1Tile.setColorGreen();
