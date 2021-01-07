@@ -1,5 +1,6 @@
 .header {
-    border: 1px solid black;
+    @include border_1();
+    margin-bottom: $marginBottom;
 
     &__title {
         color: $color_4;

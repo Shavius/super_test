@@ -14,8 +14,6 @@ class Warrior {
         this.level = options.level;
     }
     getWarriorInfo() {
-        console.log(this.name);
-        console.log(this.race);
-        console.log(this.level);
+        return this.name + ' ' + this.race + ' ' + this.level;
     }
 }
