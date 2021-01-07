@@ -26,9 +26,12 @@ lenargoWarrior.getWarriorInfo();
 mainBody.innerHTML = lenargoWarrior.getWarriorInfo();
 
 let h1Tile = new Select2('header__title');
+let headerButton = new Select2('header__btn').el;
+h1Tile.setColorGreen();
 
-console.log(h1Tile);
 
 console.log('---');
 
-h1Tile.setColorGreen();
+headerButton.onclick = () => {
+    h1Tile.setColorGreen();
+}
