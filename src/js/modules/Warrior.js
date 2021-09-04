@@ -15,7 +15,7 @@ class Warrior {
     }
 
     /**
-     * 
+     * Function getWarriorInfo
      * @returns {string} string
      */
     getWarriorInfo() {
