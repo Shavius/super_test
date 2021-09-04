@@ -1,4 +1,4 @@
-export {Select, Select2};
+export { Select, Select2 };
 
 class Select {
     constructor(select) {
@@ -9,7 +9,7 @@ class Select {
     }
 }
 
-class Select2 extends Select{
+class Select2 extends Select {
     constructor(select) {
         super('.' + select);
         this.switch = 1;
