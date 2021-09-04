@@ -1,4 +1,4 @@
-export {Warrior};
+export { Warrior };
 
 /**
  * class Warrior
@@ -13,6 +13,11 @@ class Warrior {
         this.race = options.race;
         this.level = options.level;
     }
+
+    /**
+     * 
+     * @returns {string} string
+     */
     getWarriorInfo() {
         return this.name + ' ' + this.race + ' ' + this.level;
     }

@@ -1,6 +1,5 @@
-import {Warrior} from './modules/Warrior';
-import {Select} from './modules/Select';
-import {Select2} from './modules/Select';
+import { Warrior } from './modules/Warrior';
+import { Select, Select2 } from './modules/Select';
 
 let lenargoWarrior = new Warrior({
     name: 'Lenargo',
